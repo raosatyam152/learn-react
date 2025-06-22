@@ -17,7 +17,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## stay connected with raosatyam152
 Stay connected to get update and new learnings about react js and other js extentions/ libraries 
 
-######things can be learnt through this project
+#### Things can be learnt through this project
 React basics 
 Cards in react 
 css styling {Inline, external, module}
