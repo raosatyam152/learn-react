@@ -8,10 +8,21 @@ import Button from './button/button.jsx'
 import Student from './components/student.jsx';
 import UserGreeting from './components/UserGreetings.jsx';
 import './App.css';
+import List from './components/list/list.jsx';
 
 
 function App() {
-  
+  // Sample data for the list component  
+     const items = [{id:0, component:'monitor', price: 200},
+                    {id:1, component:'CPU', price: 300},
+                    {id:2, component:'Keyboard', price: 100},
+                    {id:3, component:'Mouse', price: 50},
+                    {id:4, component:'Printer', price: 150}];
+      const parts = [{id:0, component:'monitor', price: 200},
+                    {id:1, component:'CPU', price: 300},
+                    {id:2, component:'Keyboard', price: 100},
+                    {id:3, component:'Mouse', price: 50},
+                    {id:4, component:'Printer', price: 150}];
     return (
     <>
       <Router>
@@ -23,6 +34,8 @@ function App() {
         <Student name="Yaman" age={21} isStudent={false} />
         <Student name="Monu" age={19} isStudent={true} /></>} />
         <Route path="/user" element={<><UserGreeting isloggedIn={true} username="Satyam" /></>} />
+        <Route path="/list" element={<><List item={items} category="Computer parts" />
+        <List item={parts} category="Printer parts" /></>} />
       </Routes>
     </Router>
       <Footer/>
