@@ -19,8 +19,7 @@ function App() {
         <Route path="/fav" element={<Food />} />
         <Route path="/props" element={<><Student name="Satyam" age={19} isStudent={true} />
         <Student name="Yaman" age={21} isStudent={false} />
-        <Student name="Monu" age={19} isStudent={true} /> <Student name="Larry"/>       
-        </>} />
+        <Student name="Monu" age={19} isStudent={true} /></>} />
       </Routes>
     </Router>
       <Footer/>
