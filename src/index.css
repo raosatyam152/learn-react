@@ -111,3 +111,10 @@ Exrternal method
   border-radius: 5px;
   cursor: pointer;
 } */
+ .student{
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  color: hsl(276, 100%, 82%);
+  border: #535bf2 1px solid;
+}
