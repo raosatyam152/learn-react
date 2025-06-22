@@ -6,6 +6,8 @@ import Card from './Cards/card.jsx'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Button from './button/button.jsx'
 import Student from './components/student.jsx';
+import UserGreeting from './components/UserGreetings.jsx';
+import './App.css';
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route path="/props" element={<><Student name="Satyam" age={19} isStudent={true} />
         <Student name="Yaman" age={21} isStudent={false} />
         <Student name="Monu" age={19} isStudent={true} /></>} />
+        <Route path="/user" element={<><UserGreeting isloggedIn={true} username="Satyam" /></>} />
       </Routes>
     </Router>
       <Footer/>

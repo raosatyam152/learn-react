@@ -6,11 +6,12 @@ function Header(){
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="#">Contact</a></li>
+                {/* <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Portfolio</a></li> */}
                 <li><a href="fav">Faviorate</a></li>
                 <li><a href="/props">properties testing</a></li>
+                <li><a href="/user">User</a></li>
             </ul>
         </nav>
         </header>
