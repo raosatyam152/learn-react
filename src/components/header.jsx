@@ -1,6 +1,8 @@
+import ProfilePicture from "../button/profilePicture";
 function Header(){
-    return (
+    return (<>
         <header>
+            <ProfilePicture />
         <h1>My name is Satyam</h1>
         <nav>   
             <ul>
@@ -14,7 +16,7 @@ function Header(){
                 <li><a href="/user">User</a></li>
             </ul>
         </nav>
-        </header>
+        </header></>
     )
 }
 export default Header;

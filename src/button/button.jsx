@@ -1,10 +1,15 @@
 import styles from './Button.module.css'
 function Button(){
-    const handleClick = () => {
-        alert('Button clicked!');
-    }
-    return(
-        <button className={styles.button} onClick={handleClick}>Click me</button>
-    );
+    // let count = 0;
+    // const handleClick = (name) => {
+    //     let newCount = ++count;
+    //     alert(`${name} Clicked Button ${newCount} times!`);
+    // };
+    // return(
+    //     <button className={styles.button} onClick={() => handleClick("Satyam")}>Click me</button>
+    // );
+     // Now Double click event handler
+     const handle = (e) => e.target.textContent = "Click me Carefully🤕";
+     return(<button className={styles.button} onDoubleClick={handle}>Click me</button>);
 }
 export default Button
