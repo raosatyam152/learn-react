@@ -125,3 +125,29 @@ Exrternal method
   object-fit: cover;
   margin-bottom: 10px;
 }
+.counter {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  color: hsl(276, 100%, 82%);
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid hsl(276, 100%, 82%);
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+.btn{
+  width: fit-content;
+  height: 60px;
+  background-color: hsl(200,100%,50%);
+  color: white;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 20px;
+  text-overflow: fit-content;
+}
+.btn:hover {
+  background-color: hsl(200,100%,40%);
+}

@@ -9,7 +9,8 @@ import Student from './components/student.jsx';
 import UserGreeting from './components/UserGreetings.jsx';
 import './App.css';
 import List from './components/list/list.jsx';
-
+import MyComponent from './components/useState/MyComponent.jsx';
+import Counter from './components/useState/counter.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -28,7 +29,7 @@ function App() {
       <Router>
       <Routes>
         <Route path="/" element={<><Header /><Button/></>} />
-        <Route path="/about" element={<Card/>} />
+        <Route path="/about" element={<><Card/></>} />
         <Route path="/fav" element={<Food />} />
         <Route path="/props" element={<><Student name="Satyam" age={19} isStudent={true} />
         <Student name="Yaman" age={21} isStudent={false} />
@@ -36,6 +37,9 @@ function App() {
         <Route path="/user" element={<><UserGreeting isloggedIn={true} username="Satyam" /></>} />
         <Route path="/list" element={<><List item={items} category="Computer parts" />
         <List item={parts} category="Printer parts" /></>} />
+        <Route path="/count" element={<>
+        <h1>Use State Example</h1>
+        <Counter/><MyComponent/></>} />
       </Routes>
     </Router>
       <Footer/>
