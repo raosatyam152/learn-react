@@ -12,6 +12,7 @@ import List from './components/list/list.jsx';
 import MyComponent from './components/UseComponents/UseState.jsx';
 import Counter from './components/UseComponents/counter.jsx';
 import OnChange from './components/UseComponents/OnChange.jsx';
+import ColorPicker from './components/UseComponents/ColorPicker.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -40,7 +41,8 @@ function App() {
         <List item={parts} category="Printer parts" /></>} />
         <Route path="/use" element={<>
         <h1>Use State Example</h1>
-        <Counter/><MyComponent/><OnChange/></>} />
+        <Counter/><MyComponent/><OnChange/><ColorPicker/></>} />
+
       </Routes>
     </Router>
       <Footer/>

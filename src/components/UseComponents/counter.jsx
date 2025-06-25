@@ -4,15 +4,23 @@
 // useState = A react hook that allows the creation of staeful variables in functional components.
 //            And a setter function to update its value in the virtual DOM 
 //            {name,setName}
+//updater function = A function passed as an argument to setState() usually
+//                   ex. setYear(year => year + 1)
+//                   Allow for safe updates based on the previous state value
+//                   Used with multiple state updates and asyncronous operations
+//                   Good practice to use updater function when the new state depends on the previous state
+
+
 import React, { useState } from 'react';
 function Counter() {
     const [count,setCount] = useState(0);
     
     const increase = () => {
-        setCount(count + 1);
+//     setCount(count + 1); A normal use state function without update 
+        setCount(count => count + 1); // A functional update to ensure the latest state is used
     }
     const decrease = () => {
-        setCount(count - 1);
+        setCount(count => count - 1);
     }
     const reset = () => {
         setCount(0);

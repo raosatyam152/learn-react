@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
@@ -150,4 +151,32 @@ Exrternal method
 }
 .btn:hover {
   background-color: hsl(200,100%,40%);
+}
+.color-picker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  transition: 0.25s ease;
+}
+.color-display p{
+  color: hsl(0,0%,20%);
+  margin-bottom: 10px;
+}
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius:10px;
+
 }
