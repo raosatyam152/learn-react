@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 
+
 function MyComponent() {
     const[name,setName] = useState();
     const updateName = () => {
-        setName("Satyam");
+        setName("Satyam"); // Set name to "Satyam"
     }
     const [age, setAge] = useState(0);
     
@@ -25,7 +26,9 @@ function MyComponent() {
       <p>Age: {age}</p>
       <button className="btn" onClick={updateAge}>Increase Age</button>
       <p>Alive: {alive ? "Yes" : "No"}</p>
+      <label>
       <button className="btn" onClick={toggleAlive}>Toggle Alive</button>
+      </label>
     </div>
   );
 }

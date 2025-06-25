@@ -14,6 +14,7 @@ function Header(){
                 <li><a href="fav">Faviorate</a></li>
                 <li><a href="/props">properties testing</a></li>
                 <li><a href="/user">User</a></li>
+                <li><a href="/use">Use of diffrent components</a></li>
             </ul>
         </nav>
         </header></>

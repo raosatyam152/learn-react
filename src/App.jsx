@@ -9,8 +9,9 @@ import Student from './components/student.jsx';
 import UserGreeting from './components/UserGreetings.jsx';
 import './App.css';
 import List from './components/list/list.jsx';
-import MyComponent from './components/useState/MyComponent.jsx';
-import Counter from './components/useState/counter.jsx';
+import MyComponent from './components/UseComponents/UseState.jsx';
+import Counter from './components/UseComponents/counter.jsx';
+import OnChange from './components/UseComponents/OnChange.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -37,9 +38,9 @@ function App() {
         <Route path="/user" element={<><UserGreeting isloggedIn={true} username="Satyam" /></>} />
         <Route path="/list" element={<><List item={items} category="Computer parts" />
         <List item={parts} category="Printer parts" /></>} />
-        <Route path="/count" element={<>
+        <Route path="/use" element={<>
         <h1>Use State Example</h1>
-        <Counter/><MyComponent/></>} />
+        <Counter/><MyComponent/><OnChange/></>} />
       </Routes>
     </Router>
       <Footer/>
