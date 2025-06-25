@@ -28,3 +28,4 @@ click events
 {useState}
 onChange
 color Picker app
+Updater function
