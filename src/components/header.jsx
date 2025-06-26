@@ -12,6 +12,7 @@ function Header(){
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Portfolio</a></li> */}
                 <li><a href="fav">Faviorate</a></li>
+                <li><a href="/list">Lists and object</a></li>
                 <li><a href="/props">properties testing</a></li>
                 <li><a href="/user">User</a></li>
                 <li><a href="/use">Use of diffrent components</a></li>

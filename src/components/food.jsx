@@ -10,7 +10,8 @@ function Food(){
             <li>Ice Cream</li>
             <li>Uttapam</li>
             <li>Masala Dhosa</li>
-        </ul></>
+
+        </ul><a href="/">Home</a></>
 
     );
 
