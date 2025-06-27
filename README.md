@@ -29,3 +29,5 @@ click events
 onChange
 color Picker app
 Updater function
+Update object in state
+update array in state
