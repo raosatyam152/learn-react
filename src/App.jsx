@@ -15,6 +15,7 @@ import OnChange from './components/UseComponents/OnChange.jsx';
 import ColorPicker from './components/UseComponents/ColorPicker.jsx';
 import UpdateOBJ from './components/list/UpdateOBJ.jsx';
 import UpdateArr from './components/list/updateArrayState.jsx';
+import UpdateArrOBJ from './components/list/updateArrOBJ.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -40,7 +41,7 @@ function App() {
         <Student name="Monu" age={19} isStudent={true} /><a href="/">Home</a></>} />
         <Route path="/user" element={<><UserGreeting isloggedIn={true} username="Satyam" /></>} />
         <Route path="/list" element={<><List item={items} category="Computer parts" />
-        <List item={parts} category="Printer parts" /><UpdateOBJ/><UpdateArr/><a href="/">Home</a></>} />
+        <List item={parts} category="Printer parts" /><UpdateOBJ/><UpdateArr/><UpdateArrOBJ/><a href="/">Home</a></>} />
         <Route path="/use" element={<>
         <h1>Use State Example</h1>
         <Counter/><MyComponent/><OnChange/><ColorPicker/><a href="/">Home</a></>} />
