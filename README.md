@@ -31,3 +31,4 @@ color Picker app
 Updater function
 Update object in state
 update array in state
+update array object in state
