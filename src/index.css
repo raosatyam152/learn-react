@@ -29,6 +29,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Arial', sans-serif;
+  color: #222;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -180,3 +185,75 @@ input[type="color"]{
   border-radius:10px;
 
 }
+.to-do-list {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  font-family: Arial, sans-serif;
+
+}
+.add-btn {
+  background-color: hsl(120, 70%, 45%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 10px 0;
+}
+.add-btn:hover {
+  background-color: hsl(120, 70%, 35%);
+}
+
+.align-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spn-text {
+  font-size: 1.1em;
+  color: hsl(210, 10%, 30%);
+  font-weight: 500;
+  margin-left: 8px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.up-btn {
+  background-color: hsl(220, 90%, 56%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.up-btn:hover {
+  background-color: hsl(220, 90%, 46%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+input{
+  font-size: 1.2rem;
+  padding:10px;
+  border: 2px solid oklch(75.558% 0.18049 313.634 / 0.516);
+  border-radius: 5px;
+  color:#747bff;
+  
+}
+

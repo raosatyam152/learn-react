@@ -16,6 +16,7 @@ import ColorPicker from './components/UseComponents/ColorPicker.jsx';
 import UpdateOBJ from './components/list/UpdateOBJ.jsx';
 import UpdateArr from './components/list/updateArrayState.jsx';
 import UpdateArrOBJ from './components/list/updateArrOBJ.jsx';
+import ToDoList from './ToDoListApp/ToDo.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -45,7 +46,7 @@ function App() {
         <Route path="/use" element={<>
         <h1>Use State Example</h1>
         <Counter/><MyComponent/><OnChange/><ColorPicker/><a href="/">Home</a></>} />
-
+        <Route path="/todo" element ={<ToDoList/>}/>
       </Routes>
     </Router>
     
