@@ -18,6 +18,7 @@ import UpdateArr from './components/list/updateArrayState.jsx';
 import UpdateArrOBJ from './components/list/updateArrOBJ.jsx';
 import ToDoList from './ToDoListApp/ToDo.jsx';
 import Effect from './components/UseComponents/useEffect.jsx';
+import Clock from './components/clock/clock.jsx'
 
 function App() {
   // Sample data for the list component  
@@ -49,6 +50,7 @@ function App() {
         <Counter/><MyComponent/><OnChange/><ColorPicker/><a href="/">Home</a></>} />
         <Route path="/todo" element ={<ToDoList/>}/>
         <Route path="/effect" element={<Effect/>}/>
+        <Route path="/clock" element={<Clock/>}/>
       </Routes>
     </Router>
     
