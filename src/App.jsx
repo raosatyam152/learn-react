@@ -20,6 +20,7 @@ import ToDoList from './ToDoListApp/ToDo.jsx';
 import Effect from './components/UseComponents/useEffect.jsx';
 import Clock from './components/clock/clock.jsx'
 import CompA from './components/useContext/CompA.jsx';
+import UseRef from './components/useRef/UseRef.jsx';
 
 function App() {
   // Sample data for the list component  
@@ -53,6 +54,7 @@ function App() {
         <Route path="/effect" element={<Effect/>}/>
         <Route path="/clock" element={<Clock/>}/>
         <Route path="/context" element={<CompA/>}/>
+        <Route path="/ref" element={<UseRef/>}/>
       </Routes>
     </Router>
     
