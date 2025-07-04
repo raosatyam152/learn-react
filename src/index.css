@@ -262,3 +262,8 @@ input{
 
 
 }
+.clock{
+  font-size: 1.6rem;
+  padding: 10px;
+  color:#747bff
+}

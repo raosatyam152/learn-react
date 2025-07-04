@@ -24,7 +24,8 @@ function Clock(){
     return(
         <div>
             <div>
-                <span>{formatTime()}</span>
+                <h1>Clock</h1>
+                <span className ="clock">{formatTime()}</span>
             </div>
         </div>
     )

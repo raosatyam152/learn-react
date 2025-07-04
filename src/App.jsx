@@ -21,6 +21,7 @@ import Effect from './components/UseComponents/useEffect.jsx';
 import Clock from './components/clock/clock.jsx'
 import CompA from './components/useContext/CompA.jsx';
 import UseRef from './components/useRef/UseRef.jsx';
+import Stopwatch from './components/clock/stopwatch.jsx'
 
 function App() {
   // Sample data for the list component  
@@ -52,7 +53,7 @@ function App() {
         <Counter/><MyComponent/><OnChange/><ColorPicker/><a href="/">Home</a></>} />
         <Route path="/todo" element ={<ToDoList/>}/>
         <Route path="/effect" element={<Effect/>}/>
-        <Route path="/clock" element={<Clock/>}/>
+        <Route path="/clock" element={<><Clock/><Stopwatch/></>}/>
         <Route path="/context" element={<CompA/>}/>
         <Route path="/ref" element={<UseRef/>}/>
       </Routes>

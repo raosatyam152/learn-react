@@ -17,6 +17,7 @@ function Header(){
                 <li><a href="/user">User</a></li>
                 <li><a href="/use">Use of diffrent components</a></li>
                 <li><a href="/todo">To-Do List App</a></li>
+                <li><a href="/clock">Clock</a></li>
             </ul>
         </nav>
         </header></>
